@@ -3935,7 +3935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2127552834}
-  - component: {fileID: 2127552833}
+  - component: {fileID: 2127552835}
   - component: {fileID: 2127552832}
   m_Layer: 0
   m_Name: AudioManager
@@ -4040,27 +4040,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2127552833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127552831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c47ecda179003a0499d23ad99d7441ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 2127552832}
-  audioSounds:
-  - {fileID: 8300000, guid: b67a3db8a25fb1549a31845900e5062f, type: 3}
-  - {fileID: 8300000, guid: 5f4ec558dcb353c4f91f9fc52da8b140, type: 3}
-  - {fileID: 8300000, guid: a9d50df810474e041a944c84fb5afb5b, type: 3}
-  - {fileID: 8300000, guid: 231804daafbcc344c872e10b81034c2d, type: 3}
-  - {fileID: 8300000, guid: f8cce8b91ba1e7c4faa1172008b1fac5, type: 3}
-  - {fileID: 8300000, guid: d3a80237ebe9f794ab781855f5e512bd, type: 3}
-  masterVolume: 1
 --- !u!4 &2127552834
 Transform:
   m_ObjectHideFlags: 0
@@ -4076,6 +4055,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2127552835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127552831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c8e141bd00a7047be7ceae066e6350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 2127552832}
+  audioSounds:
+  - {fileID: 8300000, guid: b67a3db8a25fb1549a31845900e5062f, type: 3}
+  - {fileID: 8300000, guid: 5f4ec558dcb353c4f91f9fc52da8b140, type: 3}
+  - {fileID: 8300000, guid: a9d50df810474e041a944c84fb5afb5b, type: 3}
+  - {fileID: 8300000, guid: d3a80237ebe9f794ab781855f5e512bd, type: 3}
+  - {fileID: 8300000, guid: f8cce8b91ba1e7c4faa1172008b1fac5, type: 3}
+  - {fileID: 8300000, guid: 231804daafbcc344c872e10b81034c2d, type: 3}
+  masterVolume: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
