@@ -112,6 +112,8 @@ public class SubmarineGameManager : MonoBehaviour
         }
         else//Sorular bitince sonuc ekrani acilir.
         {
+            pause.action.Disable();
+
             ShowResults();
         }
     }

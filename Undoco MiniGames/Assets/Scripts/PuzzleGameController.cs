@@ -40,6 +40,8 @@ public class PuzzleGameController : MonoBehaviour
         //Yeterli parca yerlestirilirse oyunu bitirecek metodu cagir.
         if (placedPieces >= totalPieces)
         {
+            PuzzleGameManager.Instance.pause.action.Disable();
+
             GameFinished();
         }
     }

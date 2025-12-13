@@ -14,7 +14,7 @@ public class PuzzleGameManager : MonoBehaviour
 
     private PuzzlePiece[] puzzlePieces;
 
-    [SerializeField] private InputActionReference pause;
+    public InputActionReference pause;
     private void Awake()
     {
         if (Instance == null) Instance = this;
