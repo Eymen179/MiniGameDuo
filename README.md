@@ -61,7 +61,7 @@ Fizik tabanlı hareket ve UI etkileşimli soru sistemi içeren bir simülasyon.
 
 ## 📂 Proje Yapısı ve Kullanılan Desenler
 
-* **Singleton Pattern:** `MiniGameManager`, `SubMiniGameManager``AudioManager`, `PuzzleGameManager` ve `SubmarineGameManager` sınıfları sahneler arası veri kaybını önlemek ve tek merkezden erişim sağlamak için Singleton olarak tasarlanmıştır.
+* **Singleton Pattern:** `MiniGameManager`, `AudioManager`, `PuzzleGameManager` ve `SubmarineGameManager` sınıfları sahneler arası veri kaybını önlemek ve tek merkezden erişim sağlamak için Singleton olarak tasarlanmıştır.
 * **New Input System:** Tüm kontrol şeması (WASD, Mouse Position, Click, ESC) tek bir `InputActions` asset dosyası üzerinden yönetilmekte ve C# eventleri ile scriptlere bağlanmaktadır.
 
 ## 📂 Kullanılan Assetler
