@@ -2,7 +2,7 @@
 
 Bu proje, bir staj vaka çalışması (case study) kapsamında geliştirilmiş; içerisinde 3D Main Menu, 2D Puzzle oyunu ve 2.5D Denizaltı simülasyonu barındıran bütünleşik bir Unity oyun projesidir.
 
-![Main Menu Screenshot](Gorseller/MainMenu.png)
+![Main Menu Screenshot](Images/MainMenu.png)
 
 ## 🛠 Teknik Bilgiler
 
@@ -41,7 +41,7 @@ Proje, Singleton tasarım deseni (GameManager, AudioManager) ve Observer benzeri
 ### 1. 2D Puzzle Oyunu
 Sürükle-bırak mekaniğine sahip, parça eşleştirmeli bir bulmaca oyunu.
 
-![Puzzle Game Screenshot](Gorseller/PuzzleGame.png)
+![Puzzle Game Screenshot](Images/PuzzleGame.png)
 
 * **Input Yönetimi:** Unity'nin **New Input System**'i kullanılmıştır. Eski `OnMouse` metotları yerine, Event System arayüzleri (`IPointerDownHandler`, `IDragHandler`, `IPointerUpHandler`) implemente edilmiştir.
 * **Etkileşim:** Kameraya eklenen `Physics 2D Raycaster` sayesinde, UI olmayan Sprite objeleriyle Event System üzerinden etkileşime geçilmesi sağlanmıştır.
@@ -51,7 +51,7 @@ Sürükle-bırak mekaniğine sahip, parça eşleştirmeli bir bulmaca oyunu.
 ### 2. 2.5D Denizaltı Oyunu
 Fizik tabanlı hareket ve UI etkileşimli soru sistemi içeren bir simülasyon.
 
-![Submarine Game Screenshot](Gorseller/SubmarineGame.png)
+![Submarine Game Screenshot](Images/SubmarineGame.png)
 
 * **Hareket Fiziği:** Denizaltı kontrolü `Rigidbody` fiziği kullanılarak sağlanmıştır. `FixedUpdate` içerisinde `velocity` manipülasyonu ile hareket verilirken, dönüşler `Quaternion.Slerp` ile yumuşatılmıştır.
 * **Yüzey Sınırlandırması:** Denizaltının su yüzeyine (Y = 50.5f) çıkmasını engellemek için pozisyon ve hız vektörleri kod tarafında `Mathf.Clamp` mantığı ile sınırlandırılmıştır.
