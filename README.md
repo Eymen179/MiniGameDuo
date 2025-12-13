@@ -1,2 +1,2 @@
 # MiniGameDuo
-A mini game project for an internship case.
+A game project for an internship case.
