@@ -20321,6 +20321,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Submarine
       objectReference: {fileID: 0}
+    - target: {fileID: 3176391043247066084, guid: dd8cd1320e38ece42873a456fb74f6f0,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5067478443043350262, guid: dd8cd1320e38ece42873a456fb74f6f0,
         type: 3}
       propertyPath: txtChestCounter
