@@ -20332,7 +20332,7 @@ PrefabInstance:
     - target: {fileID: 5067478443043350262, guid: dd8cd1320e38ece42873a456fb74f6f0,
         type: 3}
       propertyPath: chestCounter
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5067478443043350262, guid: dd8cd1320e38ece42873a456fb74f6f0,
         type: 3}
