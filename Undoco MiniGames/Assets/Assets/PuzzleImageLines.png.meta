@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 6fb2ccff92b8a2b428ae4434617df06f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PuzzleImageLines_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 677
+        width: 813
+        height: 1113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -406.39844, y: 556.5}
+        - {x: -406.5, y: -339.5}
+        - {x: -321.5, y: -336.5}
+        - {x: -225.5, y: -334.5}
+        - {x: -194.5, y: -334.5}
+        - {x: -167.5, y: -335.5}
+        - {x: -153.5, y: -336.5}
+        - {x: -143.5, y: -337.5}
+        - {x: -132.5, y: -338.5}
+        - {x: -124.5, y: -339.5}
+        - {x: -115.5, y: -341.5}
+        - {x: -106.5, y: -344.5}
+        - {x: -98.5, y: -348.5}
+        - {x: -90.5, y: -353.5}
+        - {x: -84.5, y: -360.5}
+        - {x: -81.5, y: -368.5}
+        - {x: -80.5, y: -376.5}
+        - {x: -80.5, y: -381.5}
+        - {x: -82.5, y: -389.5}
+        - {x: -88.5, y: -402.5}
+        - {x: -98.5, y: -418.5}
+        - {x: -107.5, y: -430.5}
+        - {x: -115.5, y: -445.5}
+        - {x: -120.5, y: -458.5}
+        - {x: -122.5, y: -469.5}
+        - {x: -121.5, y: -480.5}
+        - {x: -119.5, y: -491.5}
+        - {x: -116.5, y: -502.5}
+        - {x: -108.5, y: -515.5}
+        - {x: -96.5, y: -527.5}
+        - {x: -81.5, y: -537.5}
+        - {x: -58.5, y: -547.5}
+        - {x: -29.5, y: -555.5}
+        - {x: -6.5, y: -556.5}
+        - {x: 24.5, y: -553.5}
+        - {x: 52.5, y: -545.5}
+        - {x: 79.5, y: -532.5}
+        - {x: 102.5, y: -508.5}
+        - {x: 111.5, y: -477.5}
+        - {x: 107.5, y: -452.5}
+        - {x: 92.5, y: -423.5}
+        - {x: 73.5, y: -395.5}
+        - {x: 69.5, y: -380.5}
+        - {x: 72.5, y: -364.5}
+        - {x: 80.5, y: -353.5}
+        - {x: 93.5, y: -343.5}
+        - {x: 112.5, y: -338.5}
+        - {x: 131.5, y: -337.5}
+        - {x: 151.5, y: -335.5}
+        - {x: 231.5, y: -333.5}
+        - {x: 340.5, y: -336.5}
+        - {x: 391.5, y: -336.5}
+        - {x: 397.5, y: -234.5}
+        - {x: 401.5, y: -141.5}
+        - {x: 401.5, y: -74.5}
+        - {x: 399.5, y: -30.5}
+        - {x: 395.5, y: -1.5}
+        - {x: 388.5, y: 14.5}
+        - {x: 380.5, y: 24.5}
+        - {x: 369.5, y: 29.5}
+        - {x: 356.5, y: 30.5}
+        - {x: 343.5, y: 25.5}
+        - {x: 328.5, y: 18.5}
+        - {x: 316.5, y: 8.5}
+        - {x: 302.5, y: -0.5}
+        - {x: 285.5, y: -10.5}
+        - {x: 265.5, y: -15.5}
+        - {x: 243.5, y: -12.5}
+        - {x: 226.5, y: -3.5}
+        - {x: 211.5, y: 9.5}
+        - {x: 197.5, y: 30.5}
+        - {x: 189.5, y: 48.5}
+        - {x: 182.5, y: 72.5}
+        - {x: 180.5, y: 89.5}
+        - {x: 179.5, y: 102.5}
+        - {x: 178.5, y: 117.5}
+        - {x: 181.5, y: 138.5}
+        - {x: 185.5, y: 158.5}
+        - {x: 192.5, y: 179.5}
+        - {x: 204.5, y: 201.5}
+        - {x: 220.5, y: 221.5}
+        - {x: 233.5, y: 229.5}
+        - {x: 247.5, y: 235.5}
+        - {x: 265.5, y: 236.5}
+        - {x: 277.5, y: 234.5}
+        - {x: 290.5, y: 229.5}
+        - {x: 303.5, y: 223.5}
+        - {x: 315.5, y: 214.5}
+        - {x: 328.5, y: 205.5}
+        - {x: 337.5, y: 199.5}
+        - {x: 348.5, y: 194.5}
+        - {x: 360.5, y: 192.5}
+        - {x: 374.5, y: 195.5}
+        - {x: 386.5, y: 205.5}
+        - {x: 392.5, y: 220.5}
+        - {x: 397.5, y: 237.5}
+        - {x: 399.5, y: 253.5}
+        - {x: 401.5, y: 298.5}
+        - {x: 401.5, y: 329.5}
+        - {x: 398.5, y: 382.5}
+        - {x: 395.5, y: 439.5}
+        - {x: 391.5, y: 505.5}
+        - {x: 389.5, y: 556.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279b34319045b4d42b44f70bbfd65380
+      internalID: -2102285261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleImageLines_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 886
+        width: 1234
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c1788742f270b41b55f6635bdbd000
+      internalID: 268840914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleImageLines_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 896
+        width: 800
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb6e4a998c302a44b06ba03544914f9
+      internalID: 1634236145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleImageLines_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 800
+        height: 651
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ed5e343b0552a40a989670d33e649f
+      internalID: -1113609676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleImageLines_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f258d84a49e2d4fb567b39bc8e822a
+      internalID: 110056755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleImageLines_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 800
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83108cabb6f47d4eb8f1f3df35efb44
+      internalID: 314544437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PuzzleImageLines_0: -2102285261
+      PuzzleImageLines_1: 268840914
+      PuzzleImageLines_2: 1634236145
+      PuzzleImageLines_3: -1113609676
+      PuzzleImageLines_4: 110056755
+      PuzzleImageLines_5: 314544437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
