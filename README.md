@@ -63,3 +63,19 @@ Fizik tabanlı hareket ve UI etkileşimli soru sistemi içeren bir simülasyon.
 
 * **Singleton Pattern:** `MiniGameManager`, `SubMiniGameManager``AudioManager`, `PuzzleGameManager` ve `SubmarineGameManager` sınıfları sahneler arası veri kaybını önlemek ve tek merkezden erişim sağlamak için Singleton olarak tasarlanmıştır.
 * **New Input System:** Tüm kontrol şeması (WASD, Mouse Position, Click, ESC) tek bir `InputActions` asset dosyası üzerinden yönetilmekte ve C# eventleri ile scriptlere bağlanmaktadır.
+
+## 📂 Kullanılan Assetler
+* https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
+* https://assetstore.unity.com/packages/3d/vehicles/sea/steampunk-submarine-diver-115731
+* https://assetstore.unity.com/packages/3d/environments/low-poly-tropical-island-lite-242437
+* https://assetstore.unity.com/packages/2d/gui/violet-themed-ui-235559
+* https://pngimg.com/image/22169
+* https://github.com/Eymen179/Line-And-Ball/blob/main/LineAndBallOfficial/Assets/Sfx/button2.wav
+* https://www.myinstants.com/en/instant/among-us-card-swipe-deny-27349/
+* https://www.myinstants.com/en/instant/ding-sound-effect/
+* https://www.youtube.com/watch?v=Nwk5NF9eSPk
+* https://freesound.org/people/theredshore/sounds/83979/
+* https://freesound.org/people/mellow_minx/sounds/711024/
+* https://www.myinstants.com/en/instant/yaaaaaaaay/
+* https://freesound.org/people/phiIRaco/sounds/572626/
+
