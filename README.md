@@ -1,14 +1,13 @@
 # MiniGameDuo
 
-Bu proje, bir staj vaka çalışması (case study) kapsamında geliştirilmiş; içerisinde 3D Main Menu, 2D Puzzle oyunu ve 2.5D Denizaltı simülasyonu barındıran bütünleşik bir Unity oyun projesidir.
+Bu proje, bir staj case'i kapsamında geliştirilmiş; içerisinde 2 adet oyun barındıran bütünleşik bir Unity oyun projesidir.
 
 ![Main Menu Screenshot](Images/MainMenu.png)
 
 ## 🛠 Teknik Bilgiler
 
 * **Unity Versiyonu:** 2022.3.62f2
-* **Input Sistemi:** Unity New Input System (Event-Driven Architecture)
-* **Render Pipeline:** Built-in / URP (Projeye göre güncelleyebilirsin)
+* **Render Pipeline:** URP (Projeye göre güncelleyebilirsin)
 * **Versiyon Kontrol:** Git LFS (Large File Storage)
 
 ---
@@ -21,7 +20,7 @@ Projeyi sorunsuz çalıştırmak için aşağıdaki adımları izleyin:
     Proje büyük dosyalar (Assetler) içerdiği için **Git LFS** gereklidir.
     ```bash
     git lfs install
-    git clone [REPO_LINKINIZ]
+    git clone https://github.com/Eymen179/MiniGameDuo/
     ```
 
 2.  **Editörde Çalıştırma:**
@@ -43,7 +42,7 @@ Sürükle-bırak mekaniğine sahip, parça eşleştirmeli bir bulmaca oyunu.
 
 ![Puzzle Game Screenshot](Images/PuzzleGame.png)
 
-* **Input Yönetimi:** Unity'nin **New Input System**'i kullanılmıştır. Eski `OnMouse` metotları yerine, Event System arayüzleri (`IPointerDownHandler`, `IDragHandler`, `IPointerUpHandler`) implemente edilmiştir.
+* **Input Yönetimi:** Unity'nin **New Input System**'i kullanılmıştır. Bununla birlikte Event System arayüzleri (`IPointerDownHandler`, `IDragHandler`, `IPointerUpHandler`) implemente edilmiştir.
 * **Etkileşim:** Kameraya eklenen `Physics 2D Raycaster` sayesinde, UI olmayan Sprite objeleriyle Event System üzerinden etkileşime geçilmesi sağlanmıştır.
 * **Snap (Yerleştirme) Mantığı:** Sürüklenen parça bırakıldığında, hedef slot ile arasındaki mesafe `Vector3.Distance` ile hesaplanır. Eğer mesafe eşik değerin altındaysa, parça `Vector3.Lerp` ile yumuşak bir animasyonla yuvaya oturur.
 * **Feedback:** Doğru ve yanlış hamlelerde Particle System efektleri ve ses geri bildirimleri tetiklenir.
@@ -62,5 +61,5 @@ Fizik tabanlı hareket ve UI etkileşimli soru sistemi içeren bir simülasyon.
 
 ## 📂 Proje Yapısı ve Kullanılan Desenler
 
-* **Singleton Pattern:** `AudioManager`, `PuzzleGameManager` ve `SubmarineGameManager` gibi yönetici sınıflar sahneler arası veri kaybını önlemek ve tek merkezden erişim sağlamak için Singleton olarak tasarlanmıştır.
+* **Singleton Pattern:** `MiniGameManager`, `SubMiniGameManager``AudioManager`, `PuzzleGameManager` ve `SubmarineGameManager` sınıfları sahneler arası veri kaybını önlemek ve tek merkezden erişim sağlamak için Singleton olarak tasarlanmıştır.
 * **New Input System:** Tüm kontrol şeması (WASD, Mouse Position, Click, ESC) tek bir `InputActions` asset dosyası üzerinden yönetilmekte ve C# eventleri ile scriptlere bağlanmaktadır.
