@@ -6215,9 +6215,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1531804389}
-        m_TargetAssemblyTypeName: PuzzleGameManager, Assembly-CSharp
-        m_MethodName: BackToInGameMenuButton
+      - m_Target: {fileID: 7299315490998027163, guid: 112aa52d3d4579d49b23677c197379b9,
+          type: 3}
+        m_TargetAssemblyTypeName: MiniGameManager, Assembly-CSharp
+        m_MethodName: BackToCurrentGameMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7258,9 +7259,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1531804389}
-        m_TargetAssemblyTypeName: PuzzleGameManager, Assembly-CSharp
-        m_MethodName: RestartButton
+      - m_Target: {fileID: 7299315490998027163, guid: 112aa52d3d4579d49b23677c197379b9,
+          type: 3}
+        m_TargetAssemblyTypeName: MiniGameManager, Assembly-CSharp
+        m_MethodName: RestartCurrentGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7392,9 +7394,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1531804389}
-        m_TargetAssemblyTypeName: PuzzleGameManager, Assembly-CSharp
-        m_MethodName: BackToInGameMenuButton
+      - m_Target: {fileID: 7299315490998027163, guid: 112aa52d3d4579d49b23677c197379b9,
+          type: 3}
+        m_TargetAssemblyTypeName: MiniGameManager, Assembly-CSharp
+        m_MethodName: BackToCurrentGameMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

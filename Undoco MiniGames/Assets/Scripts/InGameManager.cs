@@ -153,7 +153,6 @@ public class InGameManager : MonoBehaviour
 
         if (MiniGameManager.Instance != null)
         {
-            MiniGameManager.Instance.ReturnToInGameMenu(SceneManager.GetActiveScene().name);
         }
     }
 }

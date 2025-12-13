@@ -120,6 +120,9 @@ public class SubmarineGameManager : MonoBehaviour
     {
         if (resultPanel != null)
         {
+            if (MiniGameManager.Instance != null)
+                MiniGameManager.Instance.ReportGameCompleted();
+
             AudioManager.Instance.PlayAudioClip("SuccessSound");
 
             resultPanel.SetActive(true);
@@ -162,27 +165,12 @@ public class SubmarineGameManager : MonoBehaviour
         OpenNextQuestion();
     }
 
-    //ESC Menu Butonlari
+    //ESC Menu Butonlari - Contiue Butonu
     public void ContinueButton()
     {
         AudioManager.Instance.PlayAudioClip("ButtonSound");
 
         isPaused = false;
         TogglePauseMenu(false);
-    }
-    public void RestartButton()
-    {
-        AudioManager.Instance.PlayAudioClip("ButtonSound");
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    public void BackToInGameMenuButton()
-    {
-        AudioManager.Instance.PlayAudioClip("ButtonSound");
-
-        if (MiniGameManager.Instance != null)
-        {
-            MiniGameManager.Instance.ReturnToInGameMenu(SceneManager.GetActiveScene().name);
-        }
     }
 }

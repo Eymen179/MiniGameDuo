@@ -69,27 +69,12 @@ public class PuzzleGameManager : MonoBehaviour
     }
 
     //------------Yapboz Oyun Sahnesi Buton Metotlari----------------------
-    //ESC Menusu Butonlari
+    //ESC Menusu Butonlari - Contine Butonu
     public void ContinueButton()
     {
         AudioManager.Instance.PlayAudioClip("ButtonSound");
 
         isPaused = false;
         TogglePauseMenu(false);
-    }
-    public void RestartButton()
-    {
-        AudioManager.Instance.PlayAudioClip("ButtonSound");
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    public void BackToInGameMenuButton()
-    {
-        AudioManager.Instance.PlayAudioClip("ButtonSound");
-
-        if (MiniGameManager.Instance != null)
-        {
-            MiniGameManager.Instance.ReturnToInGameMenu(SceneManager.GetActiveScene().name);
-        }
     }
 }

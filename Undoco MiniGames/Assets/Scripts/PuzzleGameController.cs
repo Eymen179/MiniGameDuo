@@ -47,6 +47,9 @@ public class PuzzleGameController : MonoBehaviour
     //Oyunu Bitirme Metodu
     private void GameFinished()
     {
+        if (MiniGameManager.Instance != null)
+            MiniGameManager.Instance.ReportGameCompleted();
+
         PuzzleImageSettings();
 
         if (confettiParticle != null) confettiParticle.Play();
