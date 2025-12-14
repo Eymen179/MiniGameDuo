@@ -1526,6 +1526,7 @@ MonoBehaviour:
   pnlMainMenu: {fileID: 1872621228}
   pnlOptions: {fileID: 358599115}
   pnlGameSelection: {fileID: 808948816}
+  imgLogo: {fileID: 1396180702}
 --- !u!1 &808948816
 GameObject:
   m_ObjectHideFlags: 0

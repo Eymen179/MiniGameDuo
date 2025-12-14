@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class MainMenuController : MonoBehaviour
     public GameObject pnlMainMenu;
     public GameObject pnlOptions;
     public GameObject pnlGameSelection;
+
+    public Image imgLogo;
 
     private void Start()
     {
@@ -29,6 +32,8 @@ public class MainMenuController : MonoBehaviour
         pnlMainMenu.SetActive(true);
         pnlGameSelection.SetActive(false);
         pnlOptions.SetActive(false);
+
+        imgLogo.gameObject.SetActive(true);
     }
 
     //Oyun Secim Menusunu Acan Metot
@@ -37,6 +42,8 @@ public class MainMenuController : MonoBehaviour
         pnlMainMenu.SetActive(false);
         pnlGameSelection.SetActive(true);
         pnlOptions.SetActive(false);
+
+        imgLogo.gameObject.SetActive(false);
     }
 
     //------------------Ana Menu Sahnesinde Kullanýlan Buton Metotlari---------------------
@@ -53,6 +60,8 @@ public class MainMenuController : MonoBehaviour
 
         pnlMainMenu.SetActive(false);
         pnlOptions.SetActive(true);
+
+        imgLogo.gameObject.SetActive(false);
     }
     public void OptionsToMenuButton()
     {
