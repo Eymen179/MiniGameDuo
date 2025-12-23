@@ -1,6 +1,6 @@
 # MiniGameDuo
 
-Bu proje, bir staj case'i kapsamında geliştirilmiş; içerisinde 2 adet oyun barındıran bütünleşik bir Unity oyun projesidir.
+Bu proje, portfolyoyu büyütmek amacıyla geliştirilmiş; içerisinde 2 adet oyun barındıran bütünleşik bir Unity oyun projesidir.
 
 ![Main Menu Screenshot](Images/MainMenuu.png)
 
